@@ -1,6 +1,6 @@
 import unittest
 from selenium import webdriver
-from srcpages.BuyNowFunnelPage import BuyNowFunnelPage
+from .src.pages.BuyNowFunnelPage import BuyNowFunnelPage
 
 
 class BuyNowSignupFunnelTest(unittest.TestCase):
